@@ -1,0 +1,287 @@
+ErrorDocument 403 /page21532903.html
+ErrorDocument 404 /page21532903.html
+
+DirectoryIndex page21112669.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://si\.land/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.si.land [NC]
+RewriteRule ^(.*)$ https://si\.land/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ru/vacancies/chief-project-engineer$ page21406830.html [NC]
+RewriteRule ^ru/vacancies/chief-project-engineer/$ page21406830.html [NC]
+
+RewriteRule ^header_ru$ page21399666.html [NC]
+RewriteRule ^header_ru/$ page21399666.html [NC]
+
+RewriteRule ^ru/blog/tendenc-u-budvnictv-ce-tendenc-u-zhitt-ta-susplstv$ page21404090.html [NC]
+RewriteRule ^ru/blog/tendenc-u-budvnictv-ce-tendenc-u-zhitt-ta-susplstv/$ page21404090.html [NC]
+
+RewriteRule ^header_ua$ page21179844.html [NC]
+RewriteRule ^header_ua/$ page21179844.html [NC]
+
+RewriteRule ^blog/serhiy-samusyev-spetsialne-ntervyu-do-dnya-nezalezhnosti-ukrayiny$ page22020301.html [NC]
+RewriteRule ^blog/serhiy-samusyev-spetsialne-ntervyu-do-dnya-nezalezhnosti-ukrayiny/$ page22020301.html [NC]
+
+RewriteRule ^blog/vitayemo-z-dnem-nezalezhnosti$ page21613609.html [NC]
+RewriteRule ^blog/vitayemo-z-dnem-nezalezhnosti/$ page21613609.html [NC]
+
+RewriteRule ^stalyy-rozvytok$ page23967056.html [NC]
+RewriteRule ^stalyy-rozvytok/$ page23967056.html [NC]
+
+RewriteRule ^footer_ru$ page21400000.html [NC]
+RewriteRule ^footer_ru/$ page21400000.html [NC]
+
+RewriteRule ^vacancies/holovnyyarkhitektorproyektu$ page21284816.html [NC]
+RewriteRule ^vacancies/holovnyyarkhitektorproyektu/$ page21284816.html [NC]
+
+RewriteRule ^footer_ua$ page21174258.html [NC]
+RewriteRule ^footer_ua/$ page21174258.html [NC]
+
+RewriteRule ^press$ page21286192.html [NC]
+RewriteRule ^press/$ page21286192.html [NC]
+
+RewriteRule ^about$ page21174854.html [NC]
+RewriteRule ^about/$ page21174854.html [NC]
+
+RewriteRule ^blog/tendenc-u-budvnictv-ce-tendenc-u-zhitt-ta-susplstv$ page21294445.html [NC]
+RewriteRule ^blog/tendenc-u-budvnictv-ce-tendenc-u-zhitt-ta-susplstv/$ page21294445.html [NC]
+
+RewriteRule ^vacancies/chief-project-engineer$ page21344706.html [NC]
+RewriteRule ^vacancies/chief-project-engineer/$ page21344706.html [NC]
+
+RewriteRule ^vacancies$ page21183492.html [NC]
+RewriteRule ^vacancies/$ page21183492.html [NC]
+
+RewriteRule ^blog/sergej-samusev-zv-development$ page21340363.html [NC]
+RewriteRule ^blog/sergej-samusev-zv-development/$ page21340363.html [NC]
+
+RewriteRule ^ru/thank-you-page$ page21532624.html [NC]
+RewriteRule ^ru/thank-you-page/$ page21532624.html [NC]
+
+RewriteRule ^live$ page21179740.html [NC]
+RewriteRule ^live/$ page21179740.html [NC]
+
+RewriteRule ^blog/danl-safonov-arhtektor-zv-development$ page21377223.html [NC]
+RewriteRule ^blog/danl-safonov-arhtektor-zv-development/$ page21377223.html [NC]
+
+RewriteRule ^blog/serhiy-samusyev-dlya-commercial-property$ page21668188.html [NC]
+RewriteRule ^blog/serhiy-samusyev-dlya-commercial-property/$ page21668188.html [NC]
+
+RewriteRule ^blog$ page21284989.html [NC]
+RewriteRule ^blog/$ page21284989.html [NC]
+
+RewriteRule ^contact$ page21285043.html [NC]
+RewriteRule ^contact/$ page21285043.html [NC]
+
+RewriteRule ^ru/stalyy-rozvytok$ page24171197.html [NC]
+RewriteRule ^ru/stalyy-rozvytok/$ page24171197.html [NC]
+
+RewriteRule ^ru/about$ page21400608.html [NC]
+RewriteRule ^ru/about/$ page21400608.html [NC]
+
+RewriteRule ^ru/vacancies/glavnyy-arkhitektor-proyekta$ page21873707.html [NC]
+RewriteRule ^ru/vacancies/glavnyy-arkhitektor-proyekta/$ page21873707.html [NC]
+
+RewriteRule ^ru/vacancies$ page21400930.html [NC]
+RewriteRule ^ru/vacancies/$ page21400930.html [NC]
+
+RewriteRule ^ru/live$ page21403550.html [NC]
+RewriteRule ^ru/live/$ page21403550.html [NC]
+
+RewriteRule ^ru/blog$ page21403911.html [NC]
+RewriteRule ^ru/blog/$ page21403911.html [NC]
+
+RewriteRule ^ru/contact$ page21403995.html [NC]
+RewriteRule ^ru/contact/$ page21403995.html [NC]
+
+RewriteRule ^thank-you-page$ page21532749.html [NC]
+RewriteRule ^thank-you-page/$ page21532749.html [NC]
+
+RewriteRule ^error404$ page21532903.html [NC]
+RewriteRule ^error404/$ page21532903.html [NC]
+
+RewriteRule ^ru/blog/sergej-samusev-zv-development$ page21406461.html [NC]
+RewriteRule ^ru/blog/sergej-samusev-zv-development/$ page21406461.html [NC]
+
+RewriteRule ^ru/blog/danl-safonov-arhtektor-zv-development$ page21406536.html [NC]
+RewriteRule ^ru/blog/danl-safonov-arhtektor-zv-development/$ page21406536.html [NC]
+
+RewriteRule ^ru/blog/sergey-samusev-intervyu-k-godovshchinu-dnya-nezavisimosti-ukrainy$ page22027278.html [NC]
+RewriteRule ^ru/blog/sergey-samusev-intervyu-k-godovshchinu-dnya-nezavisimosti-ukrainy/$ page22027278.html [NC]
+
+RewriteRule ^call_tracking$ page22377737.html [NC]
+RewriteRule ^call_tracking/$ page22377737.html [NC]
+
+RewriteRule ^blog/nasha-komanda-na-caravan-salon-dusseldorf$ page22518871.html [NC]
+RewriteRule ^blog/nasha-komanda-na-caravan-salon-dusseldorf/$ page22518871.html [NC]
+
+RewriteRule ^blog/ofis-z-pytan-zakhystu-biznesu-ta-investytsii$ page22519242.html [NC]
+RewriteRule ^blog/ofis-z-pytan-zakhystu-biznesu-ta-investytsii/$ page22519242.html [NC]
+
+RewriteRule ^ru/blog/ofis-po-voprosam-zashchity-biznesa-i-investitsiy$ page22519815.html [NC]
+RewriteRule ^ru/blog/ofis-po-voprosam-zashchity-biznesa-i-investitsiy/$ page22519815.html [NC]
+
+RewriteRule ^blog/hr-dyrektor-pro-konferentsiyu-instytutu-adizesa$ page23062263.html [NC]
+RewriteRule ^blog/hr-dyrektor-pro-konferentsiyu-instytutu-adizesa/$ page23062263.html [NC]
+
+RewriteRule ^blog/capsula-sola-peremozhets-premiyi-art-space$ page23219288.html [NC]
+RewriteRule ^blog/capsula-sola-peremozhets-premiyi-art-space/$ page23219288.html [NC]
+
+RewriteRule ^ru/blog/kapsula-sola-pobeditel-konkursa-art-space$ page23219852.html [NC]
+RewriteRule ^ru/blog/kapsula-sola-pobeditel-konkursa-art-space/$ page23219852.html [NC]
+
+RewriteRule ^blog/yak-pobuduvaty-sviy-dim-mriyi-sergiy-samusev$ page23267313.html [NC]
+RewriteRule ^blog/yak-pobuduvaty-sviy-dim-mriyi-sergiy-samusev/$ page23267313.html [NC]
+
+RewriteRule ^ru/blog/kak-postroit-dom-mechty-sergei-samusev$ page23269089.html [NC]
+RewriteRule ^ru/blog/kak-postroit-dom-mechty-sergei-samusev/$ page23269089.html [NC]
+
+RewriteRule ^vacancies/inzhener-konstruktor-km-kz-kd$ page23362615.html [NC]
+RewriteRule ^vacancies/inzhener-konstruktor-km-kz-kd/$ page23362615.html [NC]
+
+RewriteRule ^ru/vacancies/inzhener-konstruktor-km-kz-kd-rus$ page23363710.html [NC]
+RewriteRule ^ru/vacancies/inzhener-konstruktor-km-kz-kd-rus/$ page23363710.html [NC]
+
+RewriteRule ^blog/intervyu-z-kerivnytseyu-viddilu-prodazhiv$ page23440945.html [NC]
+RewriteRule ^blog/intervyu-z-kerivnytseyu-viddilu-prodazhiv/$ page23440945.html [NC]
+
+RewriteRule ^blog/intervyu-z-it-dyrektorom$ page23441729.html [NC]
+RewriteRule ^blog/intervyu-z-it-dyrektorom/$ page23441729.html [NC]
+
+RewriteRule ^ru/blog/intervyu-s-it-direktorom-zv-development$ page23442479.html [NC]
+RewriteRule ^ru/blog/intervyu-s-it-direktorom-zv-development/$ page23442479.html [NC]
+
+RewriteRule ^inzhener-z-tekhnichnoho-nahlyadu$ page23736425.html [NC]
+RewriteRule ^inzhener-z-tekhnichnoho-nahlyadu/$ page23736425.html [NC]
+
+RewriteRule ^vacancies/kerivnyk-viddilu-kapitalnoho-budivnytstva$ page24063584.html [NC]
+RewriteRule ^vacancies/kerivnyk-viddilu-kapitalnoho-budivnytstva/$ page24063584.html [NC]
+
+RewriteRule ^ru/vacancies/rukovoditel-otdela-kapitalnogo-stroitelstva$ page24064443.html [NC]
+RewriteRule ^ru/vacancies/rukovoditel-otdela-kapitalnogo-stroitelstva/$ page24064443.html [NC]
+
+RewriteRule ^blog/serhii-samusev-dlya-property-tour$ page24097646.html [NC]
+RewriteRule ^blog/serhii-samusev-dlya-property-tour/$ page24097646.html [NC]
+
+RewriteRule ^vacancies/koordynator-proektiv$ page24116872.html [NC]
+RewriteRule ^vacancies/koordynator-proektiv/$ page24116872.html [NC]
+
+RewriteRule ^vacancies/inzhener-z-koshtorysnoyi-roboty$ page24118141.html [NC]
+RewriteRule ^vacancies/inzhener-z-koshtorysnoyi-roboty/$ page24118141.html [NC]
+
+RewriteRule ^ru/vacancies/koordinator-proektov$ page24119464.html [NC]
+RewriteRule ^ru/vacancies/koordinator-proektov/$ page24119464.html [NC]
+
+RewriteRule ^blog/intervyu-serhiya-samusyeva-dlya-cucc$ page24124517.html [NC]
+RewriteRule ^blog/intervyu-serhiya-samusyeva-dlya-cucc/$ page24124517.html [NC]
+
+RewriteRule ^ru/blog/serhey-samusev-dlya-property-tour$ page24149242.html [NC]
+RewriteRule ^ru/blog/serhey-samusev-dlya-property-tour/$ page24149242.html [NC]
+
+RewriteRule ^ru/blog/interview-samusev-dlya-cucc$ page24150636.html [NC]
+RewriteRule ^ru/blog/interview-samusev-dlya-cucc/$ page24150636.html [NC]
+
+RewriteRule ^blog/zmistovne-intervyu-z-antonom-hetmanom$ page24151576.html [NC]
+RewriteRule ^blog/zmistovne-intervyu-z-antonom-hetmanom/$ page24151576.html [NC]
+
+RewriteRule ^vacancies/arkhitektor-dyzayner$ page24606163.html [NC]
+RewriteRule ^vacancies/arkhitektor-dyzayner/$ page24606163.html [NC]
+
+RewriteRule ^ru/vacancies/arkhitektor-dizayner$ page24606759.html [NC]
+RewriteRule ^ru/vacancies/arkhitektor-dizayner/$ page24606759.html [NC]
+
+RewriteRule ^vacancies/inzhener-z-tekhnichnoho-nahlyadu$ page24913660.html [NC]
+RewriteRule ^vacancies/inzhener-z-tekhnichnoho-nahlyadu/$ page24913660.html [NC]
+
+RewriteRule ^vacancies/inzhener-z-koshtorysnoi-roboty$ page24914045.html [NC]
+RewriteRule ^vacancies/inzhener-z-koshtorysnoi-roboty/$ page24914045.html [NC]
+
+RewriteRule ^ru/vacancies/inzhener-po-tekhnicheskomu-nadzoru$ page24916579.html [NC]
+RewriteRule ^ru/vacancies/inzhener-po-tekhnicheskomu-nadzoru/$ page24916579.html [NC]
+
+RewriteRule ^vacancies/finansovyi-manager$ page25172843.html [NC]
+RewriteRule ^vacancies/finansovyi-manager/$ page25172843.html [NC]
+
+RewriteRule ^ru/vacancies/inzhener-po-tekhnicheskomu-nadzoru-brovary$ page25173248.html [NC]
+RewriteRule ^ru/vacancies/inzhener-po-tekhnicheskomu-nadzoru-brovary/$ page25173248.html [NC]
+
+RewriteRule ^ru/vacancies/inzhener-po-smetnoy-rabote$ page25173641.html [NC]
+RewriteRule ^ru/vacancies/inzhener-po-smetnoy-rabote/$ page25173641.html [NC]
+
+RewriteRule ^ru/vacancies/finansovyi-manager$ page25173866.html [NC]
+RewriteRule ^ru/vacancies/finansovyi-manager/$ page25173866.html [NC]
+
+RewriteRule ^vacancies/providnyi-arkhitektor$ page25314599.html [NC]
+RewriteRule ^vacancies/providnyi-arkhitektor/$ page25314599.html [NC]
+
+RewriteRule ^pitchynhsolacapsulevramkakhprohramyusaid$ page25342803.html [NC]
+RewriteRule ^pitchynhsolacapsulevramkakhprohramyusaid/$ page25342803.html [NC]
+
+RewriteRule ^vedushiy-arkhitektor$ page25405767.html [NC]
+RewriteRule ^vedushiy-arkhitektor/$ page25405767.html [NC]
+
+RewriteRule ^blog/intervyu-z-kerivnykom-proyektu-zavodu-prefab$ page25434416.html [NC]
+RewriteRule ^blog/intervyu-z-kerivnykom-proyektu-zavodu-prefab/$ page25434416.html [NC]
+
+RewriteRule ^blog/intervyu-s-rukovoditelem-proekta-zavoda-prefab$ page25437082.html [NC]
+RewriteRule ^blog/intervyu-s-rukovoditelem-proekta-zavoda-prefab/$ page25437082.html [NC]
+
+RewriteRule ^vacancies/administrator_proektiv$ https://si\.land/vacancies/administrator-proektiv [R=301,NC]
+
+RewriteRule ^vacancies/inzhener_proyektuvalnyk_systemy_rozumnyy_budynok$ https://si\.land/vacancies/inzhener-proyektuvalnyk-systemy-rozumnyy-budynok [R=301,NC]
+
+RewriteRule ^vacancies/chief_project_engineer$ https://si\.land/vacancies/chief-project-engineer [R=301,NC]
+
+RewriteRule ^blog/danl_safonov_arhtektor_zv_development$ https://si\.land/blog/danl-safonov-arhtektor-zv-development [R=301,NC]
+
+RewriteRule ^blog/hr_dyrektor_pro_konferentsiyu_instytutu_adizesa$ https://si\.land/blog/hr-dyrektor-pro-konferentsiyu-instytutu-adizesa [R=301,NC]
+
+RewriteRule ^blog/vitayemo_z_dnem_nezalezhnosti$ https://si\.land/blog/vitayemo-z-dnem-nezalezhnosti [R=301,NC]
+
+RewriteRule ^blog/ofis_z_pytan_zakhystu_biznesu_ta_investytsii$ https://si\.land/blog/ofis-z-pytan-zakhystu-biznesu-ta-investytsii [R=301,NC]
+
+RewriteRule ^blog/serhiy_samusyev_dlya_commercial_property$ https://si\.land/blog/serhiy-samusyev-dlya-commercial-property [R=301,NC]
+
+RewriteRule ^blog/tendenc_u_budvnictv_ce_tendenc_u_zhitt_ta_susplstv$ https://si\.land/blog/tendenc-u-budvnictv-ce-tendenc-u-zhitt-ta-susplstv [R=301,NC]
+
+RewriteRule ^blog/sergej_samusev_zv_development$ https://si\.land/blog/sergej-samusev-zv-development [R=301,NC]
+
+RewriteRule ^blog/nasha_komanda_na_caravan_salon_dusseldorf$ https://si\.land/blog/nasha-komanda-na-caravan-salon-dusseldorf [R=301,NC]
+
+RewriteRule ^blog/serhiy_samusyev_spetsialne_intervyu_do_dnya_nezalezhnosti_ukrayiny$ https://si\.land/blog/serhiy-samusyev-spetsialne-ntervyu-do-dnya-nezalezhnosti-ukrayiny [R=301,NC]
+
+RewriteRule ^ru/blog/tendenc_u_budvnictv_ce_tendenc_u_zhitt_ta_susplstv$ https://si\.land/ru/blog/tendenc-u-budvnictv-ce-tendenc-u-zhitt-ta-susplstv [R=301,NC]
+
+RewriteRule ^ru/blog/ofis_po_voprosam_zashchity_biznesa_i_investitsiy$ https://si\.land/ru/blog/ofis-po-voprosam-zashchity-biznesa-i-investitsiy [R=301,NC]
+
+RewriteRule ^ru/blog/sergey_samusev_intervyu_k_godovshchinu_dnya_nezavisimosti_ukrainy$ https://si\.land/ru/blog/sergey-samusev-intervyu-k-godovshchinu-dnya-nezavisimosti-ukrainy [R=301,NC]
+
+RewriteRule ^ru/blog/danl_safonov_arhtektor_zv_development$ https://si\.land/ru/blog/danl-safonov-arhtektor-zv-development [R=301,NC]
+
+RewriteRule ^ru/blog/sergej_samusev_zv_development$ https://si\.land/ru/blog/sergej-samusev-zv-development [R=301,NC]
+
+RewriteRule ^ru/vacancies/inzhener-konstruktor-km-kz-kd_rus$ https://si\.land/ru/vacancies/inzhener-konstruktor-km-kz-kd-rus [R=301,NC]
+
+RewriteRule ^ru/vacancies/administrator_proektov$ https://si\.land/ru/vacancies/administrator-proektov [R=301,NC]
+
+RewriteRule ^ru/vacancies/inzhener_proyektirovshchik_sistemy_umnyy_dom$ https://si\.land/ru/vacancies/inzhener-proyektirovshchik-sistemy-umnyy-dom [R=301,NC]
+
+RewriteRule ^ru/vacancies/glavnyy_arkhitektor_proyekta$ https://si\.land/ru/vacancies/glavnyy-arkhitektor-proyekta [R=301,NC]
+
+RewriteRule ^ru/vacancies/chief_project_engineer$ https://si\.land/ru/vacancies/chief-project-engineer [R=301,NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6365-6232-4531-b165-323438386530/favicon.ico [R=302,L]
+
+<IfModule mod_headers.c>
+	Header set X-Content-Type-Options nosniff
+	Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+

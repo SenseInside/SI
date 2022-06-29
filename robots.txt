@@ -1,0 +1,20 @@
+User-Agent: *
+Disallow: /page21532903.html
+Disallow: /error404
+Disallow: /page22377737.html
+Disallow: /call_tracking
+Disallow: /page27768892.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://si.land/sitemap.xml
+Host: https://si.land
